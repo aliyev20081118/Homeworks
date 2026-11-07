@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="paralepiped sah&#601;si"/>
+        <attribute name="authors" value="334"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-22 05:30:02 PM"/>
+        <attribute name="created" value="MzM0O0RFU0tUT1AtNDBFOE9CRzsyMDI2LTA5LTIyOzA1OjI3OjU4IFBNOzI0NzI="/>
+        <attribute name="edited" value="MzM0O0RFU0tUT1AtNDBFOE9CRzsyMDI2LTA5LTIyOzA1OjMwOjAyIFBNOzE7MjU2Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="v" type="Real" array="False" size=""/>
+            <declare name="a" type="Real" array="False" size=""/>
+            <declare name="b" type="Real" array="False" size=""/>
+            <declare name="c" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <assign variable="v" expression="a*b*c"/>
+            <output expression="v" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

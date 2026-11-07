@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="t&#601;nlik"/>
+        <attribute name="authors" value="334"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-22 05:36:26 PM"/>
+        <attribute name="created" value="MzM0O0RFU0tUT1AtNDBFOE9CRzsyMDI2LTA5LTIyOzA1OjAxOjAzIFBNOzI0NTQ="/>
+        <attribute name="edited" value="MzM0O0RFU0tUT1AtNDBFOE9CRzsyMDI2LTA5LTIyOzA1OjM2OjI2IFBNOzc7MjU4MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r1" type="Real" array="False" size=""/>
+            <declare name="r2" type="Real" array="False" size=""/>
+            <declare name="r" type="Real" array="False" size=""/>
+            <input variable="r1"/>
+            <input variable="r2"/>
+            <assign variable="r" expression="(r1*r2)/(r1+r2)"/>
+            <output expression="r" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

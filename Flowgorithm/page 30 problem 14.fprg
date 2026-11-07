@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="page 30 problem 14"/>
+        <attribute name="authors" value="aliye"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-23 12:58:50 AM"/>
+        <attribute name="created" value="YWxpeWU7SFVBV0VJOzIwMjYtMDktMjM7MTI6NTU6MTcgQU07MjI1Nw=="/>
+        <attribute name="edited" value="YWxpeWU7SFVBV0VJOzIwMjYtMDktMjM7MTI6NTg6NTAgQU07MTsyMzY1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a1, a2, d, an, n" type="Real" array="False" size=""/>
+            <input variable="a1"/>
+            <input variable="a2"/>
+            <input variable="n"/>
+            <assign variable="d" expression="a2-a1"/>
+            <assign variable="an" expression="a1+(n-1)*d"/>
+        </body>
+    </function>
+</flowgorithm>

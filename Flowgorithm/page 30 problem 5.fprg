@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="t&#601;nlik"/>
+        <attribute name="authors" value="334"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-22 05:27:24 PM"/>
+        <attribute name="created" value="MzM0O0RFU0tUT1AtNDBFOE9CRzsyMDI2LTA5LTIyOzA1OjAxOjAzIFBNOzI0NTQ="/>
+        <attribute name="edited" value="MzM0O0RFU0tUT1AtNDBFOE9CRzsyMDI2LTA5LTIyOzA1OjI3OjI0IFBNOzU7MjU3Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s" type="Real" array="False" size=""/>
+            <declare name="r" type="Real" array="False" size=""/>
+            <declare name="h" type="Real" array="False" size=""/>
+            <declare name="v" type="Integer" array="False" size=""/>
+            <input variable="r"/>
+            <input variable="h"/>
+            <assign variable="s" expression="2*pi*r*(h+r)"/>
+            <assign variable="v" expression="pi*r^3"/>
+            <output expression="s" newline="True"/>
+            <output expression="v" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

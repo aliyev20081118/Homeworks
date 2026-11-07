@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="t&#601;nlik"/>
+        <attribute name="authors" value="334"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-23 08:48:52 AM"/>
+        <attribute name="created" value="MzM0O0RFU0tUT1AtNDBFOE9CRzsyMDI2LTA5LTIyOzA1OjAxOjAzIFBNOzI0NTQ="/>
+        <attribute name="edited" value="MzM0O0RFU0tUT1AtNDBFOE9CRzsyMDI2LTA5LTIzOzA4OjQ4OjUyIEFNOzEwOzI2MTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x1, x2, x3, y1, y2, y3, a, b, c, p, s" type="Real" array="False" size=""/>
+            <input variable="x1"/>
+            <input variable="x2"/>
+            <input variable="x3"/>
+            <input variable="y1"/>
+            <input variable="y2"/>
+            <input variable="y3"/>
+            <assign variable="a" expression="((x2-x1)^2+(y2-y1)^2)^0.5"/>
+            <assign variable="b" expression="((x3-x1)^2+(y3-y1)^2)^0.5"/>
+            <assign variable="c" expression="((x3-x2)^2+(y3-y2)^2)^0.5"/>
+            <assign variable="p" expression="(a+b+c)/2"/>
+            <assign variable="s" expression="0.5*(p*(p-a)*(p-b)*(p-c))^0.5"/>
+        </body>
+    </function>
+</flowgorithm>
